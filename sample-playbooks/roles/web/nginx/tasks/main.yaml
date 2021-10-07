@@ -29,3 +29,4 @@
 - name: start the nginx service
   systemd: name=nginx state=started enabled=yes
   become: yes
+
