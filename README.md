@@ -15,19 +15,6 @@ Ansible, terraform basics and improve AWS managed services knowledge
 1. git clone https://github.com/ruwendraben/ansible-nginx.git 
 
 2. cd ansible-nginx/sample-playbooks
-# tree
-.
-├── env
-│   └── hosts
-├── nginx.yaml
-├── roles
-│   └── web
-│       └── nginx
-│           ├── files
-│           │   └── index.html
-│           └── tasks
-│               └── main.yaml
-└── site.yaml
 
 3. Ansible steps are contained under roles/web/nginx/tasks/main.yaml
 (Update and upgrade apt packages -> Install the nginx package -> Copy custom index.html file -> Edit Configuration in Nginx -> start the nginx service)
